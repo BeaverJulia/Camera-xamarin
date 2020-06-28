@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/UploadFilesServer",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57512/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "UploadFilesServer": {
+      "commandName": "IIS",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": false,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "sslPort": 44320
+    },
+    "newProfile1": {
+      "commandName": "Executable"
+    }
+  }
+}
